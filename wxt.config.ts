@@ -11,7 +11,7 @@ export default defineConfig({
     },
   }),
   manifest: {
-    name: 'Custom CSS & JS Injector',
+    name: 'Layer',
     description: 'Add your own CSS and JavaScript to any website',
     permissions: ['storage', 'scripting', 'activeTab', 'tabs'],
     host_permissions: ['<all_urls>'],
