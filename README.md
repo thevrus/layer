@@ -6,7 +6,7 @@
 
 > Customize any website with CSS and JavaScript. Arc Boosts for Chrome.
 
-**Layer** is a Chrome extension that lets you inject custom CSS and JavaScript on any site—like Arc Boosts. Per-site rules, auto-save, no tracking. [Install from Chrome Web Store](#) · [Build from source](#from-source)
+**Layer** is a Chrome extension that lets you inject custom CSS and JavaScript on any site—like Arc Boosts. Per-site rules, auto-save, no tracking. [Install from Chrome Web Store](https://chromewebstore.google.com/detail/ccbjmkgcilgjgmnfilgbeeegeojalnmj) · [Build from source](#from-source)
 
 Layer brings the power of Arc's Boosts to Chrome and other Chromium browsers. A minimal, clean extension for injecting custom styles and scripts into any website.
 
@@ -23,7 +23,7 @@ Layer brings the power of Arc's Boosts to Chrome and other Chromium browsers. A 
 
 ### From Chrome Web Store
 
-[Install Layer](https://chrome.google.com/webstore) ← *Coming soon*
+[Install Layer](https://chromewebstore.google.com/detail/ccbjmkgcilgjgmnfilgbeeegeojalnmj)
 
 ### From Source
 
@@ -154,4 +154,4 @@ MIT © Vadym Rusin
 
 ---
 
-[Report Bug](https://github.com/thevrus/layer/issues) · [Request Feature](https://github.com/thevrus/layer/issues) · [Chrome Web Store](#)
+[Report Bug](https://github.com/thevrus/layer/issues) · [Request Feature](https://github.com/thevrus/layer/issues) · [Chrome Web Store](https://chromewebstore.google.com/detail/ccbjmkgcilgjgmnfilgbeeegeojalnmj)
