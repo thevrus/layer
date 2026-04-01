@@ -1,5 +1,5 @@
 <script lang="ts" setup>
-import { ref, computed, onMounted } from 'vue';
+import { ref, onMounted } from 'vue';
 import RuleEditor from '@/components/RuleEditor.vue';
 import RuleList from '@/components/RuleList.vue';
 import Settings from '@/components/Settings.vue';
@@ -44,7 +44,6 @@ function showSettings() {
       :expanded="expanded"
       @showList="showList"
       @showSettings="showSettings"
-      @saved="() => {}"
     />
     <RuleList
       v-else-if="view === 'list'"

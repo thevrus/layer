@@ -36,8 +36,9 @@ const favicon = ref<string | undefined>();
 const saved = ref(false);
 
 onMounted(async () => {
+  const rules = await getRules();
+
   if (props.editRuleId) {
-    const rules = await getRules();
     const rule = rules.find((r) => r.id === props.editRuleId);
     if (rule) {
       loadRule(rule);
@@ -53,7 +54,6 @@ onMounted(async () => {
       name.value = url.hostname;
       if (tab.favIconUrl) favicon.value = tab.favIconUrl;
 
-      const rules = await getRules();
       const existing = rules.find(
         (r) => r.urlPattern === urlPattern.value,
       );
